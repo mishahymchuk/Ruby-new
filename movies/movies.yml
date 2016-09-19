@@ -1,0 +1,17 @@
+---
+1: !ruby/object:Movie
+  title: ''
+  director: ''
+  year: ''
+2: !ruby/object:Movie
+  title: bv
+  director: v
+  year: c
+3: !ruby/object:Movie
+  title: terminator
+  director: kostner
+  year: '1984'
+4: !ruby/object:Movie
+  title: sd
+  director: ds
+  year: ds
