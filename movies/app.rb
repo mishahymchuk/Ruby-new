@@ -8,14 +8,26 @@ store = MovieStore.new ('movies.yml')
   	 @movies = store.all
   	erb :index
   end
+
+
   get ('/movies/new') do
   	erb :new
   end
+
   post ('/movies/create') do   
   	 @movie = Movie.new  
   	 @movie.title = params['title']   
   	 @movie.director = params['director']   
-  	 @movie.year = params['year'] 
+  	 @movie.year = params['year']
      store.save (@movie)
      redirect '/movies/new'
-  end 
+  end
+
+  get ('/movies/:id') do  
+   id = params['id'].to_i   
+   @movie = store.find(id)   
+   erb :show 
+  end
+
+
+

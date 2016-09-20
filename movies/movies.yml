@@ -1,17 +1,21 @@
 ---
 1: !ruby/object:Movie
-  title: ''
-  director: ''
-  year: ''
+  title: '78'
+  director: '878'
+  year: '7878'
+  id: 1
 2: !ruby/object:Movie
-  title: bv
-  director: v
-  year: c
+  title: '87'
+  director: '87'
+  year: '87'
+  id: 2
 3: !ruby/object:Movie
-  title: terminator
-  director: kostner
-  year: '1984'
+  title: '7879'
+  director: '785'
+  year: '427'
+  id: 3
 4: !ruby/object:Movie
-  title: sd
-  director: ds
-  year: ds
+  title: Terminator
+  director: Kameron
+  year: '1984'
+  id: 4
